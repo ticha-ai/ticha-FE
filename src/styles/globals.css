@@ -20,3 +20,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.a {
+  color: var(--color--main-700);
+  font-size: var(--typography--sizes-6xl);
+  font-weight: var(--typography--weights-medium);
+}

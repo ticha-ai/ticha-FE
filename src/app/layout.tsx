@@ -1,7 +1,8 @@
-import './globals.css';
+import '@/styles/globals.css';
 
 import type { Metadata } from 'next';
 
+import CSSPreloader from '@/components/CSSPreloader';
 import StyledComponentsRegistry from '@/lib/registry';
 
 import { pretendard } from './fonts';
@@ -18,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <CSSPreloader />
       <body className={`${pretendard}`}>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
