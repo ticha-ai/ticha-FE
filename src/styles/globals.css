@@ -7,22 +7,49 @@ html {
 html,
 body {
   width: 100%;
+  max-width: 1128px;
   height: 100%;
 }
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  flex-shrink: 0;
 }
 
-.a {
-  color: var(--color--main-700);
-  font-size: var(--typography--sizes-6xl);
-  font-weight: var(--typography--weights-medium);
+:root {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  cursor: default;
+  overflow-wrap: break-word;
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
