@@ -25,6 +25,9 @@ export const theme = {
       800: '#171F76',
       900: '#13195F',
     },
+    red: {
+      500: '#F35353',
+    },
   },
   typography: {
     sizes: {
