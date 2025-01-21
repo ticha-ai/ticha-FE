@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <CSSPreloader />
-      <body className={`${pretendard}`}>
+      <body className={`${pretendard.className}`}>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
     </html>
