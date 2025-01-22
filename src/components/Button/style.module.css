@@ -1,6 +1,7 @@
 .button {
   display: flex;
   gap: 4px;
+  justify-content: space-between;
   align-items: center;
 
   & p {
@@ -74,4 +75,8 @@
 }
 .text-regular {
   font-weight: var(--typography--wieghts-regular);
+}
+
+.buttonAlign {
+  justify-content: center;
 }

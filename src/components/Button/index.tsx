@@ -65,6 +65,7 @@ const Button = ({
           ${isFull ? style.full : style.fit}
           ${disabled ? style.disabled : ''}
           ${className || ''}
+          ${rightIcon || style.buttonAlign}
         `}
       onClick={onClick}
     >
