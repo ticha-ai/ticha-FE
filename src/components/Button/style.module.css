@@ -36,6 +36,10 @@
 .size-gnb {
   padding: 13px 14px;
   border-radius: 8px;
+
+  @media (max-width: 768px) {
+    padding: 8px 14px;
+  }
 }
 
 .bg-main-color {

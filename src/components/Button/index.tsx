@@ -64,7 +64,7 @@ const Button = ({
           ${boldText ? style['text-bold'] : style['text-regular']}
           ${isFull ? style.full : style.fit}
           ${disabled ? style.disabled : ''}
-          ${className}
+          ${className || ''}
         `}
       onClick={onClick}
     >
