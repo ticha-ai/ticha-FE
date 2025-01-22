@@ -3,6 +3,7 @@ import '@/styles/globals.css';
 import type { Metadata } from 'next';
 
 import CSSPreloader from '@/components/CSSPreloader';
+import ServiceLayout from '@/components/ServiceLayout';
 import StyledComponentsRegistry from '@/lib/registry';
 
 import { pretendard } from './fonts';
@@ -21,7 +22,9 @@ export default function RootLayout({
     <html lang='en'>
       <CSSPreloader />
       <body className={`${pretendard.className}`}>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <StyledComponentsRegistry>
+          <ServiceLayout>{children}</ServiceLayout>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
