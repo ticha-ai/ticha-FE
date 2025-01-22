@@ -1,0 +1,61 @@
+<svg
+      width='24'
+      height='24'
+      viewBox='0 0 24 24'
+      fill='none'
+      xmlns='http://www.w3.org/2000/svg'
+    >
+  <defs>
+    <symbol viewBox="0 0 24 24"  id='down'>
+      <path d='M4 16L12 7L20 16' stroke='currentColor'/>
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="hamburger">
+      <path d='M4 4H20' stroke='currentColor' strokeWidth='1.2' />
+      <path d='M4 12H20' stroke='currentColor' strokeWidth='1.2' />
+      <path d='M4 20H20' stroke='currentColor' strokeWidth='1.2' />
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="left">
+      <path d='M16 4L7 12L16 20' stroke='currentColor' />
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="play">
+      <path
+        d='M8 16.1315V7.86852C8 7.06982 8.89015 6.59343 9.5547 7.03647L15.7519 11.1679C16.3457 11.5638 16.3457 12.4362 15.7519 12.8321L9.5547 16.9635C8.89015 17.4066 8 16.9302 8 16.1315Z'
+        stroke='currentColor'
+      />
+    </symbol>
+
+    <symbol viewBox="0 0 24 24" id="right">
+      <path d='M8 4L17 12L8 20' stroke='currentColor' />
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="stop">
+      <path d='M8 5V19M16 5V19' stroke='currentColor' />
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="time">
+      <circle cx='12' cy='12' r='9' stroke='currentColor' />
+      <path d='M12 7V12.2941L15 16' stroke='currentColor' />
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="up">
+      <path d='M4 8L12 17L20 8' stroke='currentColor' />
+
+    </symbol>
+
+
+    <symbol viewBox="0 0 24 24" id="user">
+      <circle cx='12' cy='7.5' r='4.4' stroke='currentColor' strokeWidth='1.2' />
+      <path
+        d='M21 22.5V22.5C21 18.0817 17.4183 14.5 13 14.5H11C6.58172 14.5 3 18.0817 3 22.5V22.5'
+        stroke='currentColor'
+        strokeWidth='1.2'
+      />
+    </symbol>
+  </defs>
+</svg>
