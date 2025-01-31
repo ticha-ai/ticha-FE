@@ -4,9 +4,8 @@
   justify-content: space-between;
   align-items: center;
 
-  & p {
-    flex: 1;
-  }
+  background-color: var(--color--main-500);
+  color: var(--color--gray-0);
 }
 
 .full {
@@ -43,23 +42,6 @@
   }
 }
 
-.bg-main-color {
-  background-color: var(--color--main-500);
-  color: var(--color--gray-0);
-}
-.bg-second-color {
-  background-color: var(--color--main-100);
-  color: var(--color--gray-0);
-}
-.bg-gray-color {
-  background-color: rgba(46, 54, 66, 0.7);
-  color: var(--color--gray-0);
-}
-.bg-transparent-color {
-  background-color: var(--color--main-0);
-  color: var(--color--gray-400);
-}
-
 .text-sm {
   font-size: var(--typography--sizes-xs);
 }
@@ -75,8 +57,4 @@
 }
 .text-regular {
   font-weight: var(--typography--wieghts-regular);
-}
-
-.buttonAlign {
-  justify-content: center;
 }
