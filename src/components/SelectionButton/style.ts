@@ -4,7 +4,6 @@ import { theme } from '@/styles/theme';
 
 export const SelectionButtonLayout = styled.button<{
   $isSelected: boolean;
-  children: React.ReactNode;
 }>`
   background-color: ${({ $isSelected }) =>
     $isSelected ? theme.colors.main['400'] : theme.colors.gray['50']};
