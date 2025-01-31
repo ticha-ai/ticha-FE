@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { theme } from '@/styles/theme';
 
-export const ReviewButtonLayout = styled.button<{ $isSelected: boolean }>`
+export const BookmarkToggleLayout = styled.button<{ $isSelected: boolean }>`
   width: ${theme.typography.sizes['2xl']};
   height: ${theme.typography.sizes['2xl']};
   margin: 4px;
