@@ -1,0 +1,7 @@
+.text-gnb {
+  color: var(--color--gray-500);
+}
+
+.text-default {
+  color: var(--color--gray-400);
+}
