@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import SelectionButton from '@/components/SelectionButton';
 
-import { SelectionButtonListLayout } from './style';
+import * as S from './style';
 
 const SelectionButtonList = () => {
   const [selected, setSelected] = useState<number | null>(null);
@@ -18,7 +18,7 @@ const SelectionButtonList = () => {
   };
 
   return (
-    <SelectionButtonListLayout>
+    <S.SelectionButtonListLayout>
       {[1, 2, 3, 4, 5].map((buttonId) => (
         <SelectionButton
           key={buttonId}
@@ -28,7 +28,7 @@ const SelectionButtonList = () => {
           {buttonId}
         </SelectionButton>
       ))}
-    </SelectionButtonListLayout>
+    </S.SelectionButtonListLayout>
   );
 };
 

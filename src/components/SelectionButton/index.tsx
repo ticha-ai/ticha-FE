@@ -1,6 +1,6 @@
 'use client';
 
-import { SelectionButtonLayout } from './style';
+import * as S from './style';
 
 interface SelectionButtonProps {
   children: React.ReactNode;
@@ -14,9 +14,9 @@ const SelectionButton = ({
   onClick,
 }: SelectionButtonProps) => {
   return (
-    <SelectionButtonLayout $isSelected={isSelected} onClick={onClick}>
+    <S.SelectionButtonLayout $isSelected={isSelected} onClick={onClick}>
       {children}
-    </SelectionButtonLayout>
+    </S.SelectionButtonLayout>
   );
 };
 
