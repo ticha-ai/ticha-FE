@@ -10,4 +10,5 @@ export const pretendard = localFont({
       style: 'normal',
     },
   ],
+  display: 'swap',
 });
