@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 
+import Footer from '../Footer';
 import Navbar from '../Navbar';
 import style from './style.module.css';
 
@@ -8,7 +9,7 @@ const ServiceLayout = ({ children }: { children: ReactNode }) => {
     <div className={style.container}>
       <Navbar />
       <main className={style.main}>{children}</main>
-      {/* footer */}
+      <Footer />
     </div>
   );
 };

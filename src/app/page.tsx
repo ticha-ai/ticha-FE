@@ -1,10 +1,5 @@
-import Footer from '@/components/Footer';
+const Home = () => {
+  return <div>Page</div>;
+};
 
-export default function Home() {
-  return (
-    <div>
-      Page
-      <Footer />
-    </div>
-  );
-}
+export default Home;

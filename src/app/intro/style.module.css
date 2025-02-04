@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  height: fit-content;
+}
+
+.intro-header {
+  position: relative;
+  margin-bottom: 72px;
+  padding: 200px 0 50px 0;
+
+  color: var(--color--gray-0);
+
+  & h2 {
+    margin-bottom: 24px;
+    font-size: var(--typography--sizes-6xl);
+    font-weight: var(--typography--weights-semibold);
+  }
+
+  & p {
+    font-size: var(--typography--sizes-lg);
+    font-weight: var(--typography--weights-regular);
+  }
+}
+
+.intro-header-content {
+  position: relative;
+  z-index: 10;
+}
+
+.image-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100%;
+
+  z-index: 1;
+
+  & img {
+    object-fit: cover;
+  }
+}
+
+.image-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* 검은색 반투명 */
+  pointer-events: none; /* 클릭 방지 */
+}
+
+.intro-blocks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.intro-wrapper {
+  display: flex;
+  gap: 83px;
+}

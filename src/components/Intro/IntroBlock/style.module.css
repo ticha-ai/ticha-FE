@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: var(--typography--sizes-5xl);
+}
+
+.describe {
+  margin-bottom: 28px;
+  font-size: var(--typography--sizes-lg);
+  color: var(--color--gray-500);
+}
+
+.content-wrapper {
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
