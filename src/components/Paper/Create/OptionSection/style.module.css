@@ -1,0 +1,29 @@
+.container {
+  padding: 28px 0;
+}
+
+.title {
+  margin-bottom: 4px;
+
+  font-size: var(--typography--sizes-3xl);
+  font-weight: var(--typography--weights-semibold);
+  color: var(--color--gray-700);
+}
+
+.description {
+  margin-bottom: 24px;
+
+  font-size: var(--typography--sizes-sm);
+  font-weight: var(--typography--weights-regular);
+  color: var(--color--gray-500);
+}
+
+.option-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
