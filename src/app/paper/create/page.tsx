@@ -12,7 +12,7 @@ import style from './style.module.css';
 
 const CreatePage = () => {
   const { options, isFulfilled } = useStore(paperOptionStore);
-  const sumbitPaperOption = () => {
+  const submitPaperOption = () => {
     console.log(options);
   };
 
@@ -31,7 +31,7 @@ const CreatePage = () => {
       <DefaultButton
         isFull={false}
         size='lg'
-        onClick={sumbitPaperOption}
+        onClick={submitPaperOption}
         disabled={!isFulfilled()}
       >
         <span className={style.button}>풀이 시작하기</span>
