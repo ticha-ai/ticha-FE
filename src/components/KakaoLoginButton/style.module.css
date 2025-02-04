@@ -1,0 +1,9 @@
+.kakao-icon {
+  width: 20px;
+  height: 18px;
+
+  @media (max-width: 390px) {
+    width: 16px;
+    height: 14px;
+  }
+}
