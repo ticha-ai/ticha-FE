@@ -1,10 +1,11 @@
 interface IconProps {
   id: string;
-  size?: 'md' | 'lg';
+  size?: 'sm' | 'md' | 'lg';
   className?: string;
 }
 
 const sizeValue = {
+  sm: 16,
   md: 20,
   lg: 24,
 };
