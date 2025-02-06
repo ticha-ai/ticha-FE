@@ -15,6 +15,7 @@ export const GoogleLoginButtonLayout = styled.button`
   font-size: ${theme.typography.sizes.md};
   font-weight: ${theme.typography.weights.medium};
   padding: 8px 88px;
+  border: 1px solid ${theme.colors.gray['50']};
 
   @media (max-width: 390px) {
     font-size: ${theme.typography.sizes.xs};
