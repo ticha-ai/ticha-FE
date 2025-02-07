@@ -9,22 +9,21 @@ interface LoginRequestProps {
 }
 
 interface LoginResponseProps {
+  access_token: string;
+  refresh_token: string;
   user: {
     id: string;
     name: string;
     email: string;
+    profile_image: string;
   };
-  access_token: string;
-  refresh_token: string;
+  message: string;
 }
 
 export const kakaoLogin = async ({
   code,
 }: LoginRequestProps): Promise<AxiosResponse<LoginResponseProps>> => {
-  console.log(code);
-  return apiV1.get('/oauth/kakao/login', {
-    params: {
-      code,
-    },
+  return apiV1.post('/oauth/kakao/token', {
+    code,
   });
 };
