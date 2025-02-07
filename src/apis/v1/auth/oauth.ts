@@ -22,7 +22,9 @@ export const kakaoLogin = async ({
   code,
 }: LoginRequestProps): Promise<AxiosResponse<LoginResponseProps>> => {
   console.log(code);
-  return apiV1.post('/oauth/kakao/callback', {
-    code,
+  return apiV1.get('/oauth/kakao/login', {
+    params: {
+      code,
+    },
   });
 };
