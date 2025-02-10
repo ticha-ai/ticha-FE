@@ -1,3 +1,5 @@
+import Calendar from '@/components/Calendar';
+
 import style from './style.module.css';
 
 const DashboardPage = () => {
@@ -14,7 +16,7 @@ const DashboardPage = () => {
         </div>
         <div className={style['calendar-working-container']}>
           <div className={style['calendar-container']}>
-            <p className={style['calendar-title']}>나의 학습 달력</p>
+            <Calendar />
           </div>
           <div className={style['working-status-container']}>
             <p className={style['working-status-title']}>진행 중인 학습</p>

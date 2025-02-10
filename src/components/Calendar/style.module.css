@@ -1,0 +1,15 @@
+.container {
+  font-size: var(--typography--sizes-sm);
+  font-weight: var(--typography--weights-semibold);
+
+  @media (max-width: 390px) {
+    font-size: var(--typography--sizes-xs);
+  }
+}
+
+.weeks-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--typography--sizes-xs);
+  margin-bottom: var(--typography--sizes-md);
+}
