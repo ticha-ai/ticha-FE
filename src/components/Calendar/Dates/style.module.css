@@ -1,0 +1,25 @@
+.date {
+  width: 22px;
+  height: 26px;
+  color: var(--color--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 390px) {
+    height: 23px;
+  }
+}
+
+.non-current-month {
+  width: 22px;
+  height: 26px;
+  color: var(--color--gray-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 390px) {
+    height: 23px;
+  }
+}
