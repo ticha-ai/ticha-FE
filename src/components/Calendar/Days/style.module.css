@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-bottom: var(--typography--sizes-2xl);
+  text-align: center;
+  padding: 0 var(--typography--sizes-xs);
+}
+
+.days {
+  width: 22px;
+  height: var(--typography--sizes-2xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--typography--weights-semibold);
+  font-size: var(--typography--sizes-sm);
+  color: var(--color--gray-500);
+
+  @media (max-width: 390px) {
+    font-size: var(--typography--sizes-xs);
+    height: 17px;
+  }
+}
